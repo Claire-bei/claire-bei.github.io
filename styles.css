@@ -41,3 +41,23 @@
 .publication-empty p{font-size:13px;color:var(--muted);margin:8px 0 17px}
 @media(max-width:560px){.publication-explorer{padding:16px;margin-top:18px}.explorer-heading{gap:8px}.explorer-heading h3{font-size:14px}.clear-filters{font-size:11px;padding-inline:10px}.filter-help{font-size:11px;margin-bottom:13px}.publication-topic-filters{gap:7px}.topic-filter{font-size:11px;padding-inline:11px;gap:7px}.topic-count{min-width:21px;height:21px;font-size:10px}.publication-results{font-size:11px}.publication-tag{font-size:10px}.publication-empty{padding:26px 16px}}
 @media print{.publication-explorer,.publication-empty{display:none!important}.publication-list .publication-item[hidden]{display:grid!important}.publication-tag,.publication-tag.is-selected{color:#333;background:white;border-color:#aaa}.publication-tag.is-selected:before{content:none}}
+
+/* FundusAgeAI live demo and internal evaluation */
+.project-grid{align-items:start}
+.fundusageai-card{scroll-margin-top:100px}
+.project-card-top .status-live{color:#23664b;border-color:#b6d9c7;background:#edf7f1}
+.project-metrics{display:grid;grid-template-columns:1fr 1fr;width:100%;gap:16px;margin-top:19px;padding:17px 0;border-top:1px solid #e1e9ee;border-bottom:1px solid #e1e9ee}
+.project-metrics>div{display:flex;flex-direction:column;min-width:0}
+.metric-label{font-size:9px;letter-spacing:.025em;line-height:1.6;color:#4b6374}
+.project-metrics strong{display:block;font-size:29px;line-height:1.6;color:var(--navy);font-weight:650;font-variant-numeric:tabular-nums}
+.project-metrics strong span{font-size:12px;font-weight:400;color:#536775}
+.metric-note{font-size:10px;line-height:1.7;color:#536775}
+.project-card .project-test-context{font-size:11px;line-height:1.7;margin:10px 0 15px}
+.demo-button{display:inline-flex;align-items:center;gap:28px;justify-content:center;background:#1e506e;color:#fff;min-height:44px;border:1px solid #1e506e;border-radius:6px;padding:10px 18px;font-size:13px;font-weight:600;line-height:1.5}
+.demo-button:hover{background:#153c54;color:white;text-decoration:none}
+.demo-button:focus-visible{outline:3px solid #397fab;outline-offset:4px}
+.evaluation-list{font-size:12px;line-height:1.8;color:var(--muted);padding-left:18px;margin:14px 0 0}
+.evaluation-list li{margin-bottom:9px}
+.project-card .project-caveat{font-size:10px;line-height:1.7;margin-top:14px;color:#64717a}
+@media(max-width:380px){.project-metrics{grid-template-columns:1fr;gap:12px}}
+@media print{.demo-button{color:#1e506e;background:white}.project-metrics strong{font-size:22px}}
