@@ -1,0 +1,9 @@
+V7 学术网站审阅版
+
+1. 解压整个 ZIP，不要只解压 index.html。
+2. 保持 assets 文件夹以及所有 CSS、JS 文件与 index.html 在原有相对目录。
+3. 双击 index.html，在浏览器中查看 Education、Teaching Experience 和 Selected Projects。
+4. 四所学校校徽现已打包为本地 PNG，无需联网即可显示。
+5. Publications 默认显示七篇论文，主题筛选功能保持不变。
+
+注意：这是未发布的审阅版本，GitHub 线上网站没有改变。
